@@ -137,6 +137,6 @@ public class Camera {
 
 	/** Returns an in-game rectangle that represents where the camera lies. */
 	public Rectangle getBounds() {
-		return new Rectangle(getPositionX(), getPositionY(), getWidth(), getHeight());
+		return new Rectangle(getPositionX() - origin.x / Runner.getInstance().getGraphics().getScaleDimensions().x, getPositionY() - origin.y / Runner.getInstance().getGraphics().getScaleDimensions().y, getWidth(), getHeight());
 	}
 }

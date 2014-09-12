@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.radirius.merc</groupId>
     <artifactId>MERCury</artifactId>
-    <version>1.0.0-experimental</version>
+    <version>1.0.1</version>
     <name>MERCury</name>
     <description>A Simple Java Game Library.</description>
     <properties>
